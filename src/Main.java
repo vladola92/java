@@ -32,6 +32,20 @@ public class Main {
         System.out.println("puncutl b este = " + ((55+9) % 9));
         System.out.println("puncutl c este = " + (20 + -3*5 / 8));
         System.out.println("puncutl d este = " + (5 + 15 / 3 * 2 - 8 % 3));
+        // sau;
+
+        int Q = 5;
+        int W = 8;
+        int E = 6;
+        int a = -Q + W * E;
+        System.out.println("rezultatul operatiei 'a' = " + a );
+        byte b= (55+9) % 9;
+        System.out.println("rezultatul operatiei 'b' = " + b);
+        byte c= 20 + -3*5 / 8;
+        System.out.println("rezultatul operatiei 'c' = " + c);
+        byte d= 5 + 15 / 3 * 2 - 8 % 3;
+        System.out.println("rezultatul operatiei 'c' = " + d);
+
 
 
 
