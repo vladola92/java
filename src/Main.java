@@ -18,18 +18,18 @@ public class Main {
         System.out.println(rex.rasa);
         System.out.println(rex.varsta);
 
-        Dogs rex = new Dogs();
-        rex.culoare="verde";
-        rex.greutate=25.5f;
+        Dogs dingo = new Dogs();
+        dingo.culoare="verde";
+        dingo.greutate=25.5f;
 
-        rex.nume=scanez.next();
-        rex.rasa="Ciobanesc";
-        rex.varsta=3;
-        System.out.println(rex.greutate);
-        System.out.println(rex.culoare);
-        System.out.println(rex.nume);
-        System.out.println(rex.rasa);
-        System.out.println(rex.varsta);
+        dingo.nume=scanez.next();
+        dingo.rasa="haskey";
+        dingo.varsta=3;
+        System.out.println(dingo.greutate);
+        System.out.println(dingo.culoare);
+        System.out.println(dingo.nume);
+        System.out.println(dingo.rasa);
+        System.out.println(dingo.varsta);
 
         // 1.Write a Java program to print 'Hello' on screen and then print your
         //name on a separate line;
